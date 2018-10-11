@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/google/protobuf/jsonpb"
+	"github.com/golang/protobuf/jsonpb"
 )
 
 func toTime(ts *Timestamp) time.Time {
